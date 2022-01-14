@@ -1,0 +1,285 @@
+*{
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+}
+/* 1-page */
+.countainer1{
+	background-color: black;
+	display: flex;
+	width: 100%;
+	height: 100vh;
+}
+.countainer1 img{
+	padding-left: 50%;
+	position: absolute;
+	height: 100vh;
+
+}
+.countainer1 header{
+	display: flex;
+	width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: black;
+    color: white;
+}
+
+.inner{
+	margin-top: -20px;
+	margin-left: 220%;
+	margin-bottom: 25px;
+	display: flex;
+}
+.header h2{
+	margin-left: 40px;
+	margin-top: 20px;
+	width: 100%;
+	font-weight: normal;
+}
+.nav_link{
+	text-decoration: none;
+	padding-right: 30px;
+	color: white;
+	transition:color 0.5s linear;
+}
+.nav_link:after{
+	color: #4AE290;
+}
+.nav_link:hover{
+	color: #4AE290;
+}
+.title{
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin: 18%;
+	font-family: 'Inter', sans-serif;
+	width: 30%;
+}
+.title h1{
+	font-weight: 800;
+	font-size: 50px;
+}
+.title h2{
+	color: #4AE290;
+	font-weight: 800;
+	font-size: 50px;
+}
+.title p {
+	margin-top: 20px;
+	font-weight: 300;
+}
+.title center{
+	margin: 20px;
+}
+.title button {
+	padding: 5px 7px;
+	font-family: 'Inter', sans-serif;
+	font-size: 20px;
+}
+.btnr{
+	pointer: cursor;
+}
+
+/* 2-page */
+.countainer2{
+	width: 100%;
+	height: 90vh;
+	display: flex;
+}
+.text{
+	margin-left: 420px;
+	margin-top: 100px;
+}
+.text h1{
+	margin-top: 10px;
+	margin-left: 70px;
+	margin-bottom: 50px;
+	font-size: 50px;
+}
+.text p{
+	font-size: 20px;
+	color: #595962;
+}
+.text a{
+	text-decoration: none;
+	color: black;
+	font-weight: 300px;
+}
+.vector1{
+	position: absolute;
+	width: 22px;
+	padding-left: 5px;
+	margin-top: -2px;
+}
+.join{
+	margin-top: 15px;
+}
+.vector{
+	width: 150px;
+	margin: 90px;
+	margin-left: 420px;
+	position: absolute;
+}
+
+/*3-page*/
+.countainer3{
+	width: 100%;
+	height: 90vh;
+}
+.countainer3 h1{
+	font-size: 50px;
+	font-weight: 1000;
+	margin-bottom: 80px;
+}
+.countainer3 img{
+	padding-right: 38px;
+}
+#Image{
+	position: absolute;
+}
+#button{
+	display: flex;
+	position: absolute;
+	margin-top: 315px;
+}
+#T1{
+	padding-left: 240px;
+	padding-right: 55px;
+}
+.btn{
+	background-color: white;
+	color: black;
+	padding: 3px 6px;
+	opacity: .9;
+	cursor: pointer;
+}
+.Training_programs_vector{
+	margin-left: 490px;
+	position: absolute;
+	margin-top: -10px;
+}
+
+/* 4-page */
+.countainer4{
+	width: 100%;
+	height: 100vh;
+}
+.countainer4 h1{
+	font-size: 50px;
+	font-weight: 800;
+	margin-bottom: 90px;
+}
+.pricing_plan{
+	display: flex;
+	margin-left: 80px;
+}
+.pricing{
+	padding-top: 70px;
+	width: 405px;
+	height: 400px;
+	margin-right: 67px;
+	background-color: #1313160D;	
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+}
+.pricing img{
+	margin-bottom: -3px;
+}
+.btn_pricing{
+	padding: 5px 10px;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}
+.pricing_plan h1{
+	margin-bottom: 1px;
+	font-size: 40px;
+	padding-top: 20px;
+}
+.month{
+	color: #595962;
+	font-size: 14px;
+}
+.btn_pricing_111{
+	padding:10px 20px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+/*5-page*/
+.countainer5{
+	margin-top: 100px;
+	display: flex;
+	width: 100%;
+	height: 80vh;
+}
+.countainer5 h1{
+	font-size: 50px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.countainer5 p {
+	font-style: italic;
+	font-family: Open Sans;
+	font-weight: normal;
+	position: static;
+	margin-top: -100px;
+	margin-left: 45px;
+	color: #FFFFFF;
+	font-size: 18px;
+}
+.Community{
+	position: static;
+	margin-right: 25px;
+}
+
+/*last page*/
+.countainer6{
+	margin-top: 200px;
+	width: 100%;
+	height: 80vh;
+	background-color: black;
+	color: #FFFFFF;
+}
+.countainer6_text{
+	position: absolute;
+ 	padding-top: 80px;
+ 	margin-left: 50%;
+}
+.countainer6 h1{
+	font-size: 60px;
+	padding-bottom: 30px;
+}
+.countainer6 p{
+	font-weight: 400;
+	font-size: 16px;
+	padding-bottom: 30px;
+}
+.countainer6 img{
+	position: absolute;
+	margin-top: -120px;
+	margin-left: 300px;
+}
+.end{
+	display: flex;
+	height: 50px;
+}
+.end a{
+	padding-right: 50px;
+	text-decoration: none;
+}
+.links{
+	margin-top: 10px;
+	margin-left: 50%;
+}
+.awd{
+	width: 100%;
+}
